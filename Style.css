@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root{
-    --primary-color: #a855f7;
-    --primary-color-dark: #9333ea;
-    --secondary-color: #ca8a04;
+    --primary-color: #e00be0;
+    --primary-color-dark: #b90eb9;
+    --secondary-color: #f0a534;
     --text-dark: #1f2937;
-    --text-light: #6b7280;
-    --extra-light: #faf5ff;
+    --text-light: #a7aebd;
+    --extra-light: #fcecfa;
     --max-width: 1200px;
-
 
 }
 
@@ -22,7 +22,7 @@ a{
 }
 
 body{
-    font-family: 'arial';
+    font-family: "Fira Sans";
 }
 
 nav{
@@ -86,6 +86,7 @@ ul li a:hover{
 
 .section{
     background-color: var(--extra-light);
+    
 }
 .section__container{
     min-height: 100vh;
@@ -192,6 +193,7 @@ ul li a:hover{
         padding: 10rem 1rem 5rem 1rem;
         text-align: center;
         grid-template-columns: repeat(1, 1fr);
+        
     }
     .image{
         /* grid-area: 1/1/2/2; */
@@ -201,5 +203,18 @@ ul li a:hover{
     .action__btns{
         margin: auto;
     }
-
 }
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20vw;
+    height: auto;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .container {
+    padding: 2px 16px;
+    width: auto;
+    
+  }
